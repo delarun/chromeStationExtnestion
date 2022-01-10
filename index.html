@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoStation</title>
+</head>
+<style>
+    html {
+        border-radius: 8px;
+        border: none;
+    }
+
+    body {
+        background-color: #121212;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        margin: 16px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    input {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        background-color: #212121;
+        border-radius: 8px;
+        border: none;
+        padding: 16px;
+        color: white;
+    }
+
+    button {
+        background-color: #212121;
+        border-radius: 8px;
+        border: none;
+        padding: 16px;
+        color: white;
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <span>Ссылка на видео</span>
+        <input id="ydurl" type="text" name="video" placeholder="url">
+        <button id="ydbut" type="submit">Запустить</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

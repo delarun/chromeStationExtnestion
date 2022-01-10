@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "VideoStation",
+	"description": "Запуск видео на Станции",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/zadli/chromeStationExtnestion",
+	"author": "Zadli",
+	"icons": {
+		"128": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"storage",
+		"cookies",
+		"*://*.yandex.ru/",
+		"webRequest",
+		"webRequestBlocking"
+	],
+	"background": {
+		"scripts": [
+			"back.js"
+		]
+	}
+}
